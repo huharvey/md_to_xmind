@@ -226,15 +226,6 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 如果你的目标是“保真渲染”，这个脚本并不合适；如果你的目标是“从文档中抽出层级结构做脑图”，它会更高效。
 
-## 发布到 GitHub 前建议
-
-如果你准备把这个仓库公开发布，建议在创建 GitHub 仓库后补充以下内容：
-
-- 替换 README 中的仓库地址占位符
-- 在 pyproject.toml 中补充项目主页、Issues 和源码地址
-- 根据你的需要补充 Release、Tag 和变更日志
-- 如果后续增加更多语法支持，可以补充更多测试样例
-
 ## License
 
 本项目采用 MIT License，详见 LICENSE。
